@@ -1,0 +1,388 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #6c7279;
+	font-size: 14px;
+}
+li {
+	list-style-type: none;
+}
+a {
+	color: #fff;
+}
+a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+:hover {
+	transition: all 1s ease;
+}
+h2 {
+	font-size: 28px;
+}
+h4 {
+	font-size: 14px;
+	font-weight: 700;
+}
+.container-fluid_full {
+	padding: 0;
+}
+.btn {
+	font-size: 13px;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: unset;
+	background-color: #e84545;
+}
+.btn:focus {
+	box-shadow: none;
+}
+.btn:active {
+	transition: all 0.2s ease;
+	box-shadow: inset 0 0 20px 3px rgba(255, 255, 255, 0.23);
+}
+/* --------- Main screen ---------*/
+.header-sec {
+	background: #34353f url(../img/bg.png) no-repeat center center / cover;
+	color: #fff;
+	padding: 26px 0 243px;
+}
+.logo {
+	font-size: 30px;
+	text-transform: uppercase;
+}
+.logo__part {
+	font-weight: 700;
+	color: #626fe4;
+}
+.menu {
+	text-transform: uppercase;
+}
+.menu__list {
+	margin-bottom: 0;
+}
+.line {
+	margin-top: 29px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+/* --------- Main screen title ---------*/
+.menu__item {
+	position: relative;
+}
+.menu__item:hover .menu__link:after {
+	content: '';
+	display: block;
+	position: absolute;
+    top: 60px;
+	left: 0;
+	right: 0;
+	border-bottom: 3px solid #fff;
+	opacity: 0.5;
+}
+
+.offer-title {
+	font-size: 45px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 182px 0 30px;
+}
+.offer-text {
+	margin: 0 auto;
+	width: 550px;
+	font-size: 22px;
+	margin-bottom: 28px;
+}
+.offer-btn {
+	width: 200px;
+	line-height: 33px;
+}
+/* --------- Main screen end ---------*/
+/* --------- Advantage block ---------*/
+.advantage {
+	padding: 121px 0 25px;
+}
+.advant {
+	width: 300px;
+	margin: auto;
+}
+.advant__title {
+	margin: 32px 0 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #2d3033;
+}
+.advant__text {
+	margin-bottom: 72px;
+}
+/* --------- Advantage block end---------*/
+/* --------- Projects block ---------*/
+.projects {
+	padding: 25px 0 102px;
+}
+.project {
+	position:relative;
+	margin-bottom: 26px;
+}
+.project__overlay {
+	background: rgba(232,69,69,0.9);
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 1s ease;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.project:hover .project__overlay {
+	opacity: 1;
+}
+.project__title {
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.project__link:hover {
+	box-shadow: inset 0px 0px 20px 5px rgba(242, 242, 242, 0.30);
+	border-radius: 10px;
+	width: 60%;
+	text-align: center;
+}
+/* --------- Projects block end ---------*/
+/* --------- Experts block ---------*/
+.experts {
+	padding: 125px 0 116px;
+	background: #f1f2fd;
+}
+.expert__name {
+	margin-top: 25px;
+	font-size: 22px;
+	font-weight: 700;
+	color: #2d3033;
+}
+.expert__post {
+	font-size: 13px;
+	color: #e84545;
+	text-transform: uppercase;
+	margin-bottom: 19px;
+}
+.expert__contact-link {
+	display: block;
+	color: #c6cacc;
+	font-size: 16px;
+	line-height: 39px;
+	width: 40px;
+	background: #fff;
+	border: 1px solid #e8ecee;
+	text-align: center;
+}
+.expert__contact-link:not(:first-child) {
+	margin-left: 4px;
+}
+.expert__contact-link i:hover{
+	transform: rotate(360deg);
+}
+.expert__contact-link:hover {
+	color: #c6cacc;		
+}
+.expert__contacts {
+	margin-top: 26px; 
+}
+/* --------- Experts block end ---------*/
+/* --------- Designer block ---------*/
+.designer-sec {
+	background-color: #53354a;
+	color: #fff;
+}
+.woman {
+	background: #53354a url(../img/woman.jpg) no-repeat center center / cover;
+	height: 100%;
+}
+.designer {
+	padding: 129px 15px 135px 85px;
+}
+.designer__descript {
+	width: 501px;
+	font-size: 36px;
+	font-style: italic;
+	line-height: 1.2em;
+	margin-bottom: 28px;
+}
+.designer__post {
+	font-size: 13px;
+	text-transform: uppercase;
+}
+/* --------- Designer block end ---------*/
+/* --------- Download block ---------*/
+.download-sec {
+	padding: 94px 0 100px;
+	color: #2d3033;
+}
+.download-title {
+	font-weight: 700;
+	margin-bottom: 12px;
+}
+.download-descript {
+	font-size: 13px;
+	text-transform: uppercase;
+	margin-bottom: 36px;
+}
+.download-btn {
+	width: 280px;
+	line-height: 33px;
+}
+/* --------- Download block end ---------*/
+/* --------- Footer block ---------*/
+.footer-sec {
+	padding: 87px 0;
+	background-color: #3a3e64;
+	box-shadow: inset 0px -11px 0 0px #313454;
+}
+.footer__title {
+	color: #fff;
+	text-transform: uppercase;
+}
+.footer__text {
+	margin: 0 auto;
+}
+.footer__elem {
+	color: #e84545;
+}
+.footer__text_first {
+	width: 150px;
+}
+.footer__text_second {
+	width: 320px;
+	margin-top: 20px;
+}
+/* --------- Footer block ---------*/
+/* --------- Media queries ---------*/
+/* 1200px + */
+@media screen and (min-width: 1200px) {
+	.container {
+		max-width: 1200px;
+	}
+}
+/* 992 - 1200px */
+@media screen and (max-width: 1199px) {
+	.project__img, .expert__face {
+    	max-width: 100%;
+    }
+    .designer__descript {
+		max-width: 100%;
+		font-size: 30px;
+	}	
+}
+/* 768 - 992px */
+@media screen and (max-width: 992px) {
+	.expert {
+		text-align: center;
+	}
+	.expert__descript {
+		text-align: left;
+	}
+	.expert__contacts {
+		margin-top: 10px;
+		margin-bottom: 45px;
+	}
+	.woman {
+		background-position: 70% 50%;
+	}
+	.designer {
+		padding-left: 30px;
+	}	
+	.footer__text_second {
+		width: 150px; 
+     	margin-top: 0; 
+	}
+	.project {
+		margin: 0 auto 26px;
+		width: 270px;
+	}
+}
+/* 576 - 768px */
+@media screen and (max-width: 767px) {
+	.logo {
+		display: block;
+		text-align: center;
+	}
+	.menu {
+		margin-top: 25px;
+	}
+	.menu__item:hover .menu__link:after {
+		content: '';
+		top: 48px;
+	}
+	.offer-text {
+		font-size: 18px;
+		width: 100%;
+	}
+	.advant {
+		margin: 0 auto;
+		max-width: 100%;
+	}
+	.expert__contacts {
+		justify-content: center;
+	}
+	.woman {
+		height: 420px
+	}
+	.designer {
+		padding: 60px 25px 40px;
+	}
+	.footer__text_second {
+		width: 200px;
+		margin-bottom: 16px;
+	}
+	.footer__text_third {
+		width: 300px;		
+	}
+	.footer-sec {
+		padding: 50px 0;
+	}
+	.project {
+		width: 250px;
+	}
+	.expert {
+		width: 85%;
+    	margin: auto;
+	}
+}
+/* 320 - 576px */
+@media screen and (max-width: 576px) {
+	.header-sec {
+		padding-bottom: 80px;
+	}
+	.menu {
+		display: none;
+	}
+	.offer-title {
+		font-size: 35px;
+		margin-top: 55px;
+	}
+	.woman {
+		background-position: 70% 50%;
+	}
+	.footer {
+		margin-bottom: 30px;
+	}
+	.project__link {
+		font-size: 10px;
+	}
+	.experts {
+    	padding: 60px 0;
+	}
+	.projects {
+    	padding: 25px 0 51px;
+	}
+	.footer__text_third {
+		max-width: 100%;
+	}
+}
