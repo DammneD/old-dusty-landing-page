@@ -12,7 +12,7 @@ Adaptive:
 - Tablet 1024
 - Mobile (> 320px)
 
-TECHNOLOGIES:
+**ECHNOLOGIES:**
 
 - HTML
 - CSS
