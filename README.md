@@ -1,6 +1,6 @@
 # Active Live landing page
 
-[Demo link](https://dammned.github.io/old-dusty-landing-page/)
+[Demo link <--](https://dammned.github.io/old-dusty-landing-page/)
 
 This is one of my first landing page.
 
